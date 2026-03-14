@@ -1,0 +1,4 @@
+fldocs
+dist/
+*.db-shm
+*.db-wal

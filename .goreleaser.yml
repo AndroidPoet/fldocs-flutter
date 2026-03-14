@@ -1,0 +1,37 @@
+version: 2
+
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+      - windows
+    goarch:
+      - amd64
+      - arm64
+    flags:
+      - -buildvcs=false
+    ldflags:
+      - -s -w
+
+archives:
+  - format: tar.gz
+    format_overrides:
+      - goos: windows
+        format: zip
+
+brews:
+  - name: fldocs-flutter
+    repository:
+      owner: AndroidPoet
+      name: homebrew-tap
+    homepage: https://github.com/AndroidPoet/fldocs
+    description: Flutter & Jetpack Compose docs, offline CLI + MCP server.
+    install: |
+      bin.install "fldocs"
+
+release:
+  github:
+    owner: AndroidPoet
+    name: fldocs-flutter
