@@ -40,7 +40,7 @@ func extractBundledDB() error {
 
 func main() {
 	root := &cobra.Command{
-		Use:   "fldocs-flutter",
+		Use:   "fldocs",
 		Short: "Flutter docs, offline.",
 	}
 
