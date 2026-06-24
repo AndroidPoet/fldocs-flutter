@@ -65,3 +65,11 @@ Add to your Claude Code MCP settings:
 ```
 
 Claude can now search and read Flutter docs directly inside your conversations.
+
+## Contributing
+
+Contributions are welcome! If you've found a bug, have an idea for an improvement, or want to contribute new features, please open an issue or submit a pull request.
+
+## Find this repository useful? :heart:
+Support it by joining __[stargazers](https://github.com/androidpoet/fldocs-flutter/stargazers)__ for this repository. :star: <br>
+Also, __[follow me](https://github.com/androidpoet)__ on GitHub for my next creations! 🤩
